@@ -1,0 +1,108 @@
+body
+{
+	min-height: 100%;
+	margin:0px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+html
+{
+	height:100%;
+
+}
+.liensEnhaut
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.centre
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+#champDeRecherche
+{
+margin-top: 2em;
+width: 600px;
+margin-bottom: 2em;
+height: 2.5em;
+box-shadow: 1px 1px 1px silver;
+
+}
+
+
+.bas
+{
+border-top: 1px solid silver;
+border-bottom: 1px solid silver;
+background-color: #f2f2f2;
+margin-top: 20em;
+}
+.basDuBas
+{
+border-top: 1px solid silver;
+
+}
+a{
+	padding: 0.7em;
+	text-decoration: none;
+	color: #6b6c6d;
+}
+a:visited{
+	color: #6b6c6d;
+	text-decoration-color: black;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+#france
+{
+	margin-left: 0.7em;
+	margin-top:0.7em;
+	color: #6b6c6d;
+
+}
+
+.Droite
+{
+	display: flex;
+    justify-content: flex-end;
+}
+
+.Gauche
+{
+	display: flex;
+	justify-content: flex-start;
+}
+.basDuBas
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+#rechercher, #GDLA
+{
+height: 2.5em ;
+width: 12em;
+border: none;
+font-weight: bold;
+background-color: #f2f2f2;
+font-size: 0.9em;
+color: #818387;
+
+}
+#rechercher:hover, #GDLA:hover
+{
+border: 1px solid grey;
+color: black;
+}
